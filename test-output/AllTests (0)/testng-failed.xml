@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [AllTests (0)]" parallel="methods">
+  <listeners>
+    <listener class-name="com.epam.mentoring.globoforce.calculator.test.TestListener"/>
+  </listeners>
+  <test name="Test Long Subtraction Big Positive(failed)" parallel="methods">
+    <parameter name="result" value="4611686018427387904"/>
+    <parameter name="a" value="9223372036854775807"/>
+    <parameter name="b" value="4611686018427387903"/>
+    <classes>
+      <class name="com.epam.mentoring.globoforce.calculator.test.SubLongTest">
+        <methods>
+          <include name="createCalculator"/>
+          <include name="subLongTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SubLongTest -->
+    </classes>
+  </test> <!-- Test Long Subtraction Big Positive(failed) -->
+</suite> <!-- Failed suite [AllTests (0)] -->

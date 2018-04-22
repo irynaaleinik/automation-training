@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="32" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTests" duration-ms="0" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+    <groups>
+    </groups>
+  </suite> <!-- AllTests -->
+  <suite name="AllTests (0)" duration-ms="296" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+    <groups>
+      <group name="Extended">
+        <method signature="SumDoubleTest.sumPositiveDoubleWithBigNumber()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumPositiveDoubleWithBigNumber" class="com.epam.mentoring.globoforce.calculator.test.SumDoubleTest"/>
+        <method signature="SubDoubleTest.subDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTestExtended" class="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest"/>
+        <method signature="SubDoubleTest.subDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@3419866c]" name="subDoubleTestExtended" class="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest"/>
+        <method signature="SubLongTest.subLongTestExtended(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTestExtended" class="com.epam.mentoring.globoforce.calculator.test.SubLongTest"/>
+        <method signature="SubLongTest.subLongTestExtended(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@6fdb1f78]" name="subLongTestExtended" class="com.epam.mentoring.globoforce.calculator.test.SubLongTest"/>
+        <method signature="MultDoubleTest.multDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTestExtended" class="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest"/>
+        <method signature="MultDoubleTest.multDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@490d6c15]" name="multDoubleTestExtended" class="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest"/>
+      </group> <!-- Extended -->
+      <group name="Smoke">
+        <method signature="SumDoubleTest.sumNegativeDouble()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumNegativeDouble" class="com.epam.mentoring.globoforce.calculator.test.SumDoubleTest"/>
+        <method signature="SumDoubleTest.sumPositiveDouble()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumPositiveDouble" class="com.epam.mentoring.globoforce.calculator.test.SumDoubleTest"/>
+        <method signature="SumDoubleTest.sumPositiveDoubleWithInt()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumPositiveDoubleWithInt" class="com.epam.mentoring.globoforce.calculator.test.SumDoubleTest"/>
+        <method signature="SumLongTest.sumParamDoubleTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumLongTest@27ddd392]" name="sumParamDoubleTest" class="com.epam.mentoring.globoforce.calculator.test.SumLongTest"/>
+        <method signature="SumLongTest.sumParamDoubleTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumLongTest@3a4afd8d]" name="sumParamDoubleTest" class="com.epam.mentoring.globoforce.calculator.test.SumLongTest"/>
+        <method signature="SubDoubleTest.subDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTest" class="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest"/>
+        <method signature="SubLongTest.subLongTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTest" class="com.epam.mentoring.globoforce.calculator.test.SubLongTest"/>
+        <method signature="MultDoubleTest.multDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTest" class="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest"/>
+        <method signature="DivDoubleTest.divLongTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="divLongTest" class="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test Positive double" duration-ms="32" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SumDoubleTest">
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="createCalculator" is-config="true" duration-ms="9" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="sumPositiveDouble()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumPositiveDouble" duration-ms="1" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumPositiveDouble -->
+        <test-method status="PASS" signature="sumNegativeDouble()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumNegativeDouble" duration-ms="1" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumNegativeDouble -->
+        <test-method status="PASS" signature="sumPositiveDoubleWithBigNumber()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumPositiveDoubleWithBigNumber" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumPositiveDoubleWithBigNumber -->
+        <test-method status="PASS" signature="sumPositiveDoubleWithInt()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumDoubleTest@3caeaf62]" name="sumPositiveDoubleWithInt" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumPositiveDoubleWithInt -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SumDoubleTest -->
+    </test> <!-- Test Positive double -->
+    <test name="Test Positive Long" duration-ms="0" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SumLongTest">
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumLongTest@27ddd392]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="sumParamDoubleTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumLongTest@27ddd392]" name="sumParamDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumParamDoubleTest -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SumLongTest -->
+    </test> <!-- Test Positive Long -->
+    <test name="Test Negative Long" duration-ms="0" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SumLongTest">
+        <test-method status="PASS" signature="sumParamDoubleTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumLongTest@3a4afd8d]" name="sumParamDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumParamDoubleTest -->
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SumLongTest@3a4afd8d]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SumLongTest -->
+    </test> <!-- Test Negative Long -->
+    <test name="Test Double Subtraction Big Positive" duration-ms="10" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest">
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="subDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTestExtended" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.223372036854776E18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.6116860184273879E18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.6116860184273879E18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTestExtended -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-30.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-27.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTest -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@2a3046da]" name="subDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTest -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SubDoubleTest -->
+    </test> <!-- Test Double Subtraction Big Positive -->
+    <test name="Test Double Subtraction Big Negative" duration-ms="10" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest">
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@3419866c]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="subDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubDoubleTest@3419866c]" name="subDoubleTestExtended" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-4.6116860184273879E18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.6116860184273879E18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9.223372036854776E18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subDoubleTestExtended -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SubDoubleTest -->
+    </test> <!-- Test Double Subtraction Big Negative -->
+    <test name="Test Long Subtraction Big Positive" duration-ms="10" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SubLongTest">
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubLong" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[523]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTest -->
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubLong" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTest -->
+        <test-method status="PASS" signature="subLongTestExtended(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTestExtended" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4611686018427387903]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4611686018427387904]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTestExtended -->
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubLong" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[125]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[350]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTest -->
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@1761e840]" name="subLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForSubLong" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTest -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SubLongTest -->
+    </test> <!-- Test Long Subtraction Big Positive -->
+    <test name="Test Long Subtraction Big Negative" duration-ms="10" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.SubLongTest">
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@6fdb1f78]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="subLongTestExtended(long, long, long)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.SubLongTest@6fdb1f78]" name="subLongTestExtended" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-4611686018427387903]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4611686018427387905]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTestExtended -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SubLongTest -->
+    </test> <!-- Test Long Subtraction Big Negative -->
+    <test name="Test Double Multiple Big Positive" duration-ms="0" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest">
+        <test-method status="PASS" signature="multDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTestExtended" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.932069319826672E8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.3456789E7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.223372036854776E15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multDoubleTestExtended -->
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForMultDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multDoubleTest -->
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForMultDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[444]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multDoubleTest -->
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForMultDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[125]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-350]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-43750]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multDoubleTest -->
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@60215eee]" name="multDoubleTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForMultDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multDoubleTest -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.MultDoubleTest -->
+    </test> <!-- Test Double Multiple Big Positive -->
+    <test name="Test Double Multiple Big Negative" duration-ms="0" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest">
+        <test-method status="PASS" signature="multDoubleTestExtended(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@490d6c15]" name="multDoubleTestExtended" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3.932069319826672E8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.3456789E7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9.223372036854776E15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multDoubleTestExtended -->
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.MultDoubleTest@490d6c15]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.MultDoubleTest -->
+    </test> <!-- Test Double Multiple Big Negative -->
+    <test name="Test Double Division by Zero" duration-ms="10" started-at="2018-04-22T19:56:54Z" finished-at="2018-04-22T19:56:54Z">
+      <class name="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest">
+        <test-method status="PASS" signature="divLongTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="divLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForDivDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[550]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[137.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divLongTest -->
+        <test-method status="PASS" signature="divLongTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="divLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForDivDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-650]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[162.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divLongTest -->
+        <test-method status="PASS" signature="createCalculator()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="createCalculator" is-config="true" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCalculator -->
+        <test-method status="PASS" signature="divLongTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="divLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForDivDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divLongTest -->
+        <test-method status="PASS" signature="divLongTest(double, double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="divLongTest" duration-ms="0" started-at="2018-04-22T22:56:54Z" data-provider="dataProviderForDivDouble" finished-at="2018-04-22T22:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-550]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-275]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divLongTest -->
+        <test-method status="PASS" signature="divDoubleTestException()[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305]" name="divDoubleTestException" duration-ms="0" started-at="2018-04-22T22:56:54Z" finished-at="2018-04-22T22:56:54Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at com.epam.mentoring.globoforce.calculator.test.DivDoubleTest.divDoubleTestException(DivDoubleTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divDoubleTestException -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.DivDoubleTest -->
+    </test> <!-- Test Double Division by Zero -->
+  </suite> <!-- AllTests (0) -->
+</testng-results>

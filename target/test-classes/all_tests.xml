@@ -1,0 +1,109 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTests" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.epam.mentoring.globoforce.calculator.test.TestListener"/>
+    </listeners>
+    
+    <test name="Test Positive double">
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SumDoubleTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Positive Long">
+        <parameter name="a" value="2"/>
+        <parameter name="b" value="3"/>
+        <parameter name="result" value="5"/>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SumLongTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Negative Long">
+        <parameter name="a" value="-3"/>
+        <parameter name="b" value="-6"/>
+        <parameter name="result" value="-9"/>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SumLongTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Double Subtraction Big Positive">
+        <parameter name="a" value="9223372036854775807"/>
+        <parameter name="b" value="4611686018427387903"/>
+        <parameter name="result" value="4611686018427387904"/>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Double Subtraction Big Negative">
+        <parameter name="a" value="-4611686018427387903"/>
+        <parameter name="b" value="4611686018427387905"/>
+        <parameter name="result" value="-9223372036854775808"/>
+        <groups>
+            <run>
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Long Subtraction Big Positive">
+        <parameter name="a" value="9223372036854775807"/>
+        <parameter name="b" value="4611686018427387903"/>
+        <parameter name="result" value="4611686018427387904"/>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SubLongTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Long Subtraction Big Negative">
+        <parameter name="a" value="-4611686018427387903"/>
+        <parameter name="b" value="4611686018427387905"/>
+        <parameter name="result" value="-9223372036854775808"/>
+        <groups>
+            <run>
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.SubLongTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Double Multiple Big Positive">
+        <parameter name="a" value="393206931.9826672"/>
+        <parameter name="b" value="23456789"/>
+        <parameter name="result" value="9223372036854775"/>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Double Multiple Big Negative">
+        <parameter name="a" value="-393206931.9826672"/>
+        <parameter name="b" value="23456789"/>
+        <parameter name="result" value="-9223372036854775"/>
+        <groups>
+            <run>
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Test Double Division by Zero">
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest"/>
+        </classes>
+    </test>
+
+
+</suite>
