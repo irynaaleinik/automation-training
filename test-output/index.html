@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites</span>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-AllTests_(0)">
-              <span class="suite-name border-passed">AllTests (0)</span>
+              <span class="suite-name border-failed">AllTests (0)</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods,   29 passed</span>
+                    <span class="method-stats">29 methods, 1 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AllTests_(0)" class="hide-methods failed suite-AllTests_(0)"> (hide)</a> <!-- hide-methods failed suite-AllTests_(0) -->
+                      <a href="#" panel-name="suite-AllTests_(0)" class="show-methods failed suite-AllTests_(0)"> (show)</a> <!-- show-methods failed suite-AllTests_(0) -->
+                    </span>
+                    <div class="method-list-content failed suite-AllTests_(0)">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest" hash-for-method="divDoubleTestException(150.0, 0.0)">divDoubleTestException(150.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AllTests_(0) -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-AllTests_(0)" class="show-methods passed suite-AllTests_(0)"> (show)</a> <!-- show-methods passed suite-AllTests_(0) -->
                     </span>
                     <div class="method-list-content passed suite-AllTests_(0)">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest" hash-for-method="divDoubleTestException">divDoubleTestException</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest" hash-for-method="divLongTest(550, 4, 137.5)">divLongTest(550, 4, 137.5)</a> <!-- method navigator-link -->
@@ -132,17 +141,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest" hash-for-method="multDoubleTest(150, 0, 0)">multDoubleTest(150, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest" hash-for-method="multDoubleTest(444, 222, 98568)">multDoubleTest(444, 222, 98568)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest" hash-for-method="multDoubleTest(125, -350, -43750)">multDoubleTest(125, -350, -43750)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.MultDoubleTest" hash-for-method="multDoubleTest(150, 0, 0)">multDoubleTest(150, 0, 0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,7 +166,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest" hash-for-method="subDoubleTest(-30.0, -2.2, -27.8)">subDoubleTest(-30.0, -2.2, -27.8)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest" hash-for-method="subDoubleTest(3.5, 2.0, 1.5)">subDoubleTest(3.5, 2.0, 1.5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,12 +176,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest" hash-for-method="subDoubleTest(3.5, 2.0, 1.5)">subDoubleTest(3.5, 2.0, 1.5)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest" hash-for-method="subDoubleTest(15.0, 15.0, 0.0)">subDoubleTest(15.0, 15.0, 0.0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest" hash-for-method="subDoubleTest(15.0, 15.0, 0.0)">subDoubleTest(15.0, 15.0, 0.0)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubDoubleTest" hash-for-method="subDoubleTest(-30.0, -2.2, -27.8)">subDoubleTest(-30.0, -2.2, -27.8)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -192,7 +201,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubLongTest" hash-for-method="subLongTest(150, 150, 0)">subLongTest(150, 150, 0)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubLongTest" hash-for-method="subLongTest(-30, -2, -28)">subLongTest(-30, -2, -28)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -202,7 +211,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubLongTest" hash-for-method="subLongTest(-30, -2, -28)">subLongTest(-30, -2, -28)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AllTests_(0)" title="com.epam.mentoring.globoforce.calculator.test.SubLongTest" hash-for-method="subLongTest(150, 150, 0)">subLongTest(150, 150, 0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -259,19 +268,35 @@
         <div panel-name="suite-AllTests" class="panel AllTests">
         </div> <!-- panel AllTests -->
         <div panel-name="suite-AllTests_(0)" class="panel AllTests_(0)">
+          <div class="suite-AllTests_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.mentoring.globoforce.calculator.test.DivDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTestException(150.0, 0.0)">
+                  </a> <!-- divDoubleTestException(150.0, 0.0) -->
+                  <span class="method-name">divDoubleTestException</span>
+                  <span class="parameters">(150.0, 0.0)</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method DivDoubleTest.divDoubleTestException(double, double)[pri:0, instance:com.epam.mentoring.globoforce.calculator.test.DivDoubleTest@24273305] should have thrown an exception of type class java.lang.ArithmeticException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests_(0)-class-failed -->
           <div class="suite-AllTests_(0)-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.epam.mentoring.globoforce.calculator.test.DivDoubleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="divDoubleTestException">
-                  </a> <!-- divDoubleTestException -->
-                  <span class="method-name">divDoubleTestException</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="divLongTest(550, 4, 137.5)">
@@ -350,10 +375,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="subDoubleTest(-30.0, -2.2, -27.8)">
-                  </a> <!-- subDoubleTest(-30.0, -2.2, -27.8) -->
+                  <a name="subDoubleTest(3.5, 2.0, 1.5)">
+                  </a> <!-- subDoubleTest(3.5, 2.0, 1.5) -->
                   <span class="method-name">subDoubleTest</span>
-                  <span class="parameters">(-30.0, -2.2, -27.8)</span>
+                  <span class="parameters">(3.5, 2.0, 1.5)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -366,18 +391,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="subDoubleTest(3.5, 2.0, 1.5)">
-                  </a> <!-- subDoubleTest(3.5, 2.0, 1.5) -->
-                  <span class="method-name">subDoubleTest</span>
-                  <span class="parameters">(3.5, 2.0, 1.5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="subDoubleTest(15.0, 15.0, 0.0)">
                   </a> <!-- subDoubleTest(15.0, 15.0, 0.0) -->
                   <span class="method-name">subDoubleTest</span>
                   <span class="parameters">(15.0, 15.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subDoubleTest(-30.0, -2.2, -27.8)">
+                  </a> <!-- subDoubleTest(-30.0, -2.2, -27.8) -->
+                  <span class="method-name">subDoubleTest</span>
+                  <span class="parameters">(-30.0, -2.2, -27.8)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -414,6 +439,14 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="multDoubleTest(150, 0, 0)">
+                  </a> <!-- multDoubleTest(150, 0, 0) -->
+                  <span class="method-name">multDoubleTest</span>
+                  <span class="parameters">(150, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="multDoubleTest(444, 222, 98568)">
                   </a> <!-- multDoubleTest(444, 222, 98568) -->
                   <span class="method-name">multDoubleTest</span>
@@ -426,14 +459,6 @@
                   </a> <!-- multDoubleTest(125, -350, -43750) -->
                   <span class="method-name">multDoubleTest</span>
                   <span class="parameters">(125, -350, -43750)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multDoubleTest(150, 0, 0)">
-                  </a> <!-- multDoubleTest(150, 0, 0) -->
-                  <span class="method-name">multDoubleTest</span>
-                  <span class="parameters">(150, 0, 0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -494,10 +519,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="subLongTest(150, 150, 0)">
-                  </a> <!-- subLongTest(150, 150, 0) -->
+                  <a name="subLongTest(-30, -2, -28)">
+                  </a> <!-- subLongTest(-30, -2, -28) -->
                   <span class="method-name">subLongTest</span>
-                  <span class="parameters">(150, 150, 0)</span>
+                  <span class="parameters">(-30, -2, -28)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -510,10 +535,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="subLongTest(-30, -2, -28)">
-                  </a> <!-- subLongTest(-30, -2, -28) -->
+                  <a name="subLongTest(150, 150, 0)">
+                  </a> <!-- subLongTest(150, 150, 0) -->
                   <span class="method-name">subLongTest</span>
-                  <span class="parameters">(-30, -2, -28)</span>
+                  <span class="parameters">(150, 150, 0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -647,6 +672,8 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test Double Multiple Big Negative --&gt;
   &lt;test name=&quot;Test Double Division by Zero&quot;&gt;
+    &lt;parameter name=&quot;a&quot; value=&quot;150&quot;/&gt;
+    &lt;parameter name=&quot;b&quot; value=&quot;0&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.epam.mentoring.globoforce.calculator.test.DivDoubleTest&quot;/&gt;
     &lt;/classes&gt;
@@ -815,66 +842,66 @@ data.addRows(29);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'sumPositiveDouble')
 data.setCell(0, 2, 'com.epam.mentoring.globoforce.calculator.test.SumDoubleTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 3);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'sumNegativeDouble')
 data.setCell(1, 2, 'com.epam.mentoring.globoforce.calculator.test.SumDoubleTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'sumPositiveDoubleWithBigNumber')
 data.setCell(2, 2, 'com.epam.mentoring.globoforce.calculator.test.SumDoubleTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'sumPositiveDoubleWithInt')
 data.setCell(3, 2, 'com.epam.mentoring.globoforce.calculator.test.SumDoubleTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'sumParamDoubleTest')
 data.setCell(4, 2, 'com.epam.mentoring.globoforce.calculator.test.SumLongTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sumParamDoubleTest')
-data.setCell(5, 2, 'com.epam.mentoring.globoforce.calculator.test.SumLongTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'subLongTestExtended')
+data.setCell(5, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'subDoubleTest')
-data.setCell(6, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'multDoubleTest')
+data.setCell(6, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'subDoubleTest')
-data.setCell(7, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
-data.setCell(7, 3, 0);
+data.setCell(7, 1, 'multDoubleTestExtended')
+data.setCell(7, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'subDoubleTest')
-data.setCell(8, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
-data.setCell(8, 3, 0);
+data.setCell(8, 1, 'divLongTest')
+data.setCell(8, 2, 'com.epam.mentoring.globoforce.calculator.test.DivDoubleTest')
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'subDoubleTest')
-data.setCell(9, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
+data.setCell(9, 1, 'sumParamDoubleTest')
+data.setCell(9, 2, 'com.epam.mentoring.globoforce.calculator.test.SumLongTest')
 data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'subDoubleTestExtended')
 data.setCell(10, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
 data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'subDoubleTestExtended')
+data.setCell(11, 1, 'subDoubleTest')
 data.setCell(11, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
 data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'subLongTest')
-data.setCell(12, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
+data.setCell(12, 1, 'subDoubleTest')
+data.setCell(12, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
 data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'subLongTest')
-data.setCell(13, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
+data.setCell(13, 1, 'subDoubleTest')
+data.setCell(13, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
 data.setCell(13, 3, 0);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'subLongTestExtended')
-data.setCell(14, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
+data.setCell(14, 1, 'subDoubleTest')
+data.setCell(14, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
 data.setCell(14, 3, 0);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'subLongTest')
-data.setCell(15, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
+data.setCell(15, 1, 'subDoubleTestExtended')
+data.setCell(15, 2, 'com.epam.mentoring.globoforce.calculator.test.SubDoubleTest')
 data.setCell(15, 3, 0);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'subLongTest')
@@ -885,19 +912,19 @@ data.setCell(17, 1, 'subLongTestExtended')
 data.setCell(17, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
 data.setCell(17, 3, 0);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'multDoubleTestExtended')
-data.setCell(18, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
+data.setCell(18, 1, 'subLongTest')
+data.setCell(18, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
 data.setCell(18, 3, 0);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'multDoubleTest')
-data.setCell(19, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
+data.setCell(19, 1, 'subLongTest')
+data.setCell(19, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
 data.setCell(19, 3, 0);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'multDoubleTest')
-data.setCell(20, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
+data.setCell(20, 1, 'subLongTest')
+data.setCell(20, 2, 'com.epam.mentoring.globoforce.calculator.test.SubLongTest')
 data.setCell(20, 3, 0);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'multDoubleTest')
+data.setCell(21, 1, 'multDoubleTestExtended')
 data.setCell(21, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
 data.setCell(21, 3, 0);
 data.setCell(22, 0, 22)
@@ -905,12 +932,12 @@ data.setCell(22, 1, 'multDoubleTest')
 data.setCell(22, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
 data.setCell(22, 3, 0);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'multDoubleTestExtended')
+data.setCell(23, 1, 'multDoubleTest')
 data.setCell(23, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
 data.setCell(23, 3, 0);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'divLongTest')
-data.setCell(24, 2, 'com.epam.mentoring.globoforce.calculator.test.DivDoubleTest')
+data.setCell(24, 1, 'multDoubleTest')
+data.setCell(24, 2, 'com.epam.mentoring.globoforce.calculator.test.MultDoubleTest')
 data.setCell(24, 3, 0);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'divLongTest')
@@ -932,7 +959,7 @@ window.suiteTableData['AllTests_(0)']= { tableData: data, tableDiv: 'times-div-A
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-AllTests_(0)">
               </div> <!-- times-div-AllTests_(0) -->
             </div> <!-- times-div -->
@@ -1007,176 +1034,172 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sumNegativeDouble</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sumPositiveDouble</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sumPositiveDoubleWithBigNumber</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sumPositiveDoubleWithInt</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.SumLongTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">173 ms</span>
+                <span class="method-start">175 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sumParamDoubleTest(2, 3, 5)</span>
-                <span class="method-start">173 ms</span>
+                <span class="method-start">180 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">183 ms</span>
+                <span class="method-start">223 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sumParamDoubleTest(-3, -6, -9)</span>
-                <span class="method-start">183 ms</span>
+                <span class="method-start">224 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.SubDoubleTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">193 ms</span>
+                <span class="method-start">255 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">subDoubleTestExtended(9.223372036854776E18, 4.6116860184273879E18, 4.6116860184273879E18)</span>
+                <span class="method-start">256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">subDoubleTest(3.5, 2.0, 1.5)</span>
-                <span class="method-start">193 ms</span>
+                <span class="method-start">260 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">subDoubleTest(2.0, 3.5, -1.5)</span>
-                <span class="method-start">193 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">subDoubleTestExtended(9.223372036854776E18, 4.6116860184273879E18, 4.6116860184273879E18)</span>
-                <span class="method-start">193 ms</span>
+                <span class="method-start">260 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">subDoubleTest(15.0, 15.0, 0.0)</span>
-                <span class="method-start">203 ms</span>
+                <span class="method-start">261 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">subDoubleTest(-30.0, -2.2, -27.8)</span>
-                <span class="method-start">203 ms</span>
+                <span class="method-start">261 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">274 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.SubLongTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">createCalculator</span>
-                <span class="method-start">213 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.SubDoubleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">subDoubleTestExtended(-4.6116860184273879E18, 4.6116860184273879E18, -9.223372036854776E18)</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">275 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.SubLongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createCalculator</span>
+                <span class="method-start">291 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">subLongTest(523, 456, 67)</span>
-                <span class="method-start">213 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">subLongTest(125, 350, -225)</span>
-                <span class="method-start">223 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">subLongTest(150, 150, 0)</span>
-                <span class="method-start">223 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">subLongTest(-30, -2, -28)</span>
-                <span class="method-start">223 ms</span>
+                <span class="method-start">292 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">subLongTestExtended(9223372036854775807, 4611686018427387903, 4611686018427387904)</span>
-                <span class="method-start">223 ms</span>
+                <span class="method-start">292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subLongTest(125, 350, -225)</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subLongTest(150, 150, 0)</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subLongTest(-30, -2, -28)</span>
+                <span class="method-start">296 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">233 ms</span>
+                <span class="method-start">306 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">subLongTestExtended(-4611686018427387903, 4611686018427387905, -9223372036854775808)</span>
-                <span class="method-start">233 ms</span>
+                <span class="method-start">307 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.MultDoubleTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">321 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">multDoubleTest(444, 222, 98568)</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">323 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">multDoubleTest(125, -350, -43750)</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">324 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">multDoubleTest(150, 0, 0)</span>
-                <span class="method-start">243 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">multDoubleTest(-30, -2, 60)</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">324 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">multDoubleTestExtended(3.932069319826672E8, 2.3456789E7, 9.223372036854776E15)</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multDoubleTest(-30, -2, 60)</span>
+                <span class="method-start">325 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">263 ms</span>
+                <span class="method-start">382 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">multDoubleTestExtended(-3.932069319826672E8, 2.3456789E7, -9.223372036854776E15)</span>
-                <span class="method-start">263 ms</span>
+                <span class="method-start">383 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.mentoring.globoforce.calculator.test.DivDoubleTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">createCalculator</span>
-                <span class="method-start">283 ms</span>
+                <span class="method-start">403 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">divDoubleTestException</span>
-                <span class="method-start">283 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">divDoubleTestException(150.0, 0.0)</span>
+                <span class="method-start">404 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">divLongTest(550, 4, 137.5)</span>
-                <span class="method-start">283 ms</span>
+                <span class="method-start">412 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">divLongTest(-550, 2, -275)</span>
-                <span class="method-start">283 ms</span>
+                <span class="method-start">414 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">divLongTest(150, 150, 1)</span>
-                <span class="method-start">283 ms</span>
+                <span class="method-start">414 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">divLongTest(-650, -4, 162.5)</span>
-                <span class="method-start">283 ms</span>
+                <span class="method-start">414 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

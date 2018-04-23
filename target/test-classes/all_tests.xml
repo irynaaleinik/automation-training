@@ -100,8 +100,18 @@
 
 
     <test name="Test Double Division by Zero">
+        <parameter name="a" value="150"/>
+        <parameter name="b" value="0"/>
         <classes>
             <class name="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Long Division by Zero">
+        <parameter name="a" value="150"/>
+        <parameter name="b" value="0"/>
+        <classes>
+            <class name="com.epam.mentoring.globoforce.calculator.test.DivLongTest"/>
         </classes>
     </test>
 

@@ -4,17 +4,16 @@
   <listeners>
     <listener class-name="com.epam.mentoring.globoforce.calculator.test.TestListener"/>
   </listeners>
-  <test name="Test Long Subtraction Big Positive(failed)" parallel="methods">
-    <parameter name="result" value="4611686018427387904"/>
-    <parameter name="a" value="9223372036854775807"/>
-    <parameter name="b" value="4611686018427387903"/>
+  <test name="Test Double Division by Zero(failed)" parallel="methods">
+    <parameter name="a" value="150"/>
+    <parameter name="b" value="0"/>
     <classes>
-      <class name="com.epam.mentoring.globoforce.calculator.test.SubLongTest">
+      <class name="com.epam.mentoring.globoforce.calculator.test.DivDoubleTest">
         <methods>
           <include name="createCalculator"/>
-          <include name="subLongTest" invocation-numbers="3"/>
+          <include name="divDoubleTestException" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.epam.mentoring.globoforce.calculator.test.SubLongTest -->
+      </class> <!-- com.epam.mentoring.globoforce.calculator.test.DivDoubleTest -->
     </classes>
-  </test> <!-- Test Long Subtraction Big Positive(failed) -->
+  </test> <!-- Test Double Division by Zero(failed) -->
 </suite> <!-- Failed suite [AllTests (0)] -->

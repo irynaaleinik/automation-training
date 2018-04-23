@@ -2,6 +2,7 @@ package com.epam.mentoring.globoforce.calculator.test;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class DivDoubleTest extends SetUpTest {
@@ -20,8 +21,13 @@ public class DivDoubleTest extends SetUpTest {
                 {-650, -4, 162.5}};
     }
 
-    @Test(expectedExceptions = NumberFormatException.class)
-    public void divDoubleTestException (){
-        calculator.div(150, 0);
+    /*
+    BUG
+    The test discove a bug in div method with double type of parameters
+     */
+    @Test(expectedExceptions = ArithmeticException.class)
+    @Parameters({"a", "b"})
+    public void divDoubleTestException (double a, double b) {
+        calculator.div(a, b);
     }
 }
