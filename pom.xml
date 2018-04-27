@@ -18,7 +18,12 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>         
+         <properties>
+                  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                  <suiteXmlFile>$test/src/test/resources/testng.xml</suiteXmlFile>
+         <skipTests>true</skipTests>
+</properties>
     <dependencies>
         <dependency>
             <groupId>com.epam.tat.module4</groupId>
