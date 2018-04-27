@@ -21,7 +21,7 @@
     </build>         
          <properties>
                   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                  <suiteXmlFile>$test/src/test/resources/testng.xml</suiteXmlFile>
+                  <suiteXmlFile>$test/src/test/resources/smoke_test.xml</suiteXmlFile>
          <skipTests>true</skipTests>
 </properties>
     <dependencies>
