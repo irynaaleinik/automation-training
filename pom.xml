@@ -24,7 +24,7 @@
                 <version>2.16</version>
                 <configuration>
                   <suiteXmlFiles>
-                      <suiteXmlFile>${basedir}/src/test/resources/smoke_test.xml</suiteXmlFile>
+                      <suiteXmlFile>/test/src/test/resources/smoke_test.xml</suiteXmlFile>
                   </suiteXmlFiles>
                 </configuration>
               </plugin>
@@ -32,7 +32,7 @@
     </build>         
          <properties>
                   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                  <suiteXmlFile>${basedir}/src/test/resources/smoke_test.xml</suiteXmlFile>
+                  <suiteXmlFile>/test/src/test/resources/smoke_test.xml</suiteXmlFile>
                   <skipTests>true</skipTests>
          </properties>
     <dependencies>
@@ -41,7 +41,7 @@
             <artifactId>calculator</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/calculator-1.0.jar</systemPath>
+            <systemPath>/test/calculator-1.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
