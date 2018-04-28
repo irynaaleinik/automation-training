@@ -46,7 +46,7 @@
             <artifactId>calculator</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/calculator-1.0.jar</systemPath>
+            <systemPath>${project.basedir}/calculator-1.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
