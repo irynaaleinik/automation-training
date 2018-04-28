@@ -24,7 +24,7 @@
                 <version>2.16</version>
                 <configuration>
                   <suiteXmlFiles>
-                      <suiteXmlFile>$test/src/test/resources/smoke_test.xml</suiteXmlFile>
+                      <suiteXmlFile>${basedir}/src/test/resources/smoke_test.xml</suiteXmlFile>
                   </suiteXmlFiles>
                 </configuration>
               </plugin>
@@ -32,7 +32,7 @@
     </build>         
          <properties>
                   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                  <suiteXmlFile>$test/src/test/resources/smoke_test.xml</suiteXmlFile>
+                  <suiteXmlFile>${basedir}/src/test/resources/smoke_test.xml</suiteXmlFile>
                   <skipTests>true</skipTests>
          </properties>
     <dependencies>
