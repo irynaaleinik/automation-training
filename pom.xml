@@ -29,6 +29,16 @@
                 </configuration>
               </plugin>
         </plugins>
+        <resources>
+              <resource>
+                  <directory>src/tes/resources</directory>
+              </resource>
+        </resources>
+        <properties>
+              <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+              <suiteXmlFile>/test/src/test/resources/smoke_test.xml</suiteXmlFile>
+              <skipTests>true</skipTests>
+         </properties>
     </build>         
          <properties>
                   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
