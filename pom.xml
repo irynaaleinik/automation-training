@@ -24,7 +24,7 @@
                 <version>2.16</version>
                 <configuration>
                   <suiteXmlFiles>
-                      <suiteXmlFile>${basedir}/src/test/resources/smoke_test.xml</suiteXmlFile>
+                      <suiteXmlFile>${basedir}/src/test/resources/all_tests.xml</suiteXmlFile>
                   </suiteXmlFiles>
                 </configuration>
              </plugin>
